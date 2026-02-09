@@ -1,0 +1,46 @@
+h1{  color:rgba(255, 255, 255, 0.822);
+    
+    
+
+}
+
+p{
+    font-size: 25px;
+    
+    text-align: center;
+}
+
+li{
+    font-size: 20px;
+    
+    text-align: center;
+}
+
+li:before{
+    content: "●  ";
+}
+
+body {background-color: rgba(192, 170, 170, 0.075);
+    max-width:5000;
+    max-width: fit-content;
+
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    width:200px
+    
+}
+
+.ctverecek{
+    background-color: rgba(151, 71, 71, 0.822);
+    padding: 0px;
+    border-radius: 24px;
+    margin-left:550px;
+    margin-right: 550px;
+    
+    text-align: center;
+    font-style: italic;
+    
+}
