@@ -16,7 +16,7 @@ fetch("./profile.json")
  
       <p><strong>Zájmy:</strong></p>
       <ul>
-        ${data.zajmy.map(zajem => `<li>${zajem}</li>`).join("")}
+        ${data.zájmy.map(zajem => `<li>${zajem}</li>`).join("")}
       </ul>
  
       <p><strong>Dovednosti:</strong></p>
