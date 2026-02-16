@@ -1,8 +1,4 @@
-h1{  color:rgba(255, 255, 255, 0.822);
-    
-    
-
-}
+/*h1{  color:rgba(255, 255, 255, 0.822);}
 
 p{
     font-size: 25px;
@@ -14,9 +10,9 @@ li{
     font-size: 20px;
     
     text-align: center;
-}
+}*/
 
-li:before{
+/*li:before{
     content: "●  ";
 }
 
@@ -43,4 +39,32 @@ img{
     text-align: center;
     font-style: italic;
     
+}*/
+
+.profile
+{
+    
+    padding: 0px;
+    
+    text-align: left;
+    font-style: italic;
+    h2{  color:rgba(131, 36, 36, 0.822);
+        font-size: 40px;
+    }
+    p{
+        color:rgba(119, 20, 37, 0.233);
+        font-size: 30px;
+        text-align: center;
+        margin-right:1100px;
+    }
+
+    li{
+        background-color: rgba(109, 21, 21, 0.048);
+        margin-right:1125px;
+        border-radius: 75px;
+        text-align:center;
+    }
+
 }
+
+

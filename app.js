@@ -12,7 +12,7 @@ fetch("./profile.json")
   })
   .then(data => {
     profilDiv.innerHTML = `
-      <h2>${data.jmeno}</h2>
+      <h2>${data.name}</h2>
  
       <p><strong>Zájmy:</strong></p>
       <ul>
