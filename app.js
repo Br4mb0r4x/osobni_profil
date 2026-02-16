@@ -1,5 +1,5 @@
 async function loaddovednosti() {
-  const response = await fetch('/api/dovednosti');
+  const response = await fetch('/dovednosti');
   const names = await response.json();
 
   console.log(dovednosti); 
@@ -8,7 +8,7 @@ async function loaddovednosti() {
 }
 
 async function loadzajmy() {
-  const response = await fetch('/api/zájmy');
+  const response = await fetch('/zájmy');
   const names = await response.json();
 
   console.log(zájmy); 
