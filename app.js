@@ -1,19 +1,11 @@
-async function loaddovednosti() {
-  const response = await fetch('/dovednosti');
-  const names = await response.json();
-
-  console.log(dovednosti); 
 
 
+try{
+    fetch("profile.json");
+    
+}
+catch
+{
+    console.error("stala se chyba");
 }
 
-async function loadzajmy() {
-  const response = await fetch('/zájmy');
-  const names = await response.json();
-
-  console.log(zájmy); 
-
-}
-
-loaddovednosti();
-loadzajmy();
